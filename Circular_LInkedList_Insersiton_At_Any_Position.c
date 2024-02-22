@@ -31,7 +31,7 @@ void ins_at_pos()
     count++;
     if (pos>count)
     {
-        printf("out of bound");
+        printf("out of bound\n");
         return ;
     }
     while(c<pos)
